@@ -1,6 +1,7 @@
 package sig.oss;
 
 public class Calc {
+    private int r = 0;
     public int add(int x, int y) {
         System.out.print(">>>>>>> Run add method ....");
         return x+y;
@@ -11,12 +12,11 @@ public class Calc {
         return x - y;
     }
 
-    public int mul(int x, int y) {
-        System.out.print(">>>>>>> Run sub method ...");
-        return x * y;
+    public int inc(int d) {
+        return r += d;
     }
 
-    public int div(int x, int y) {
-        return x / y;
+    public int getResult() {
+        return r;
     }
 }
