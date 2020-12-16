@@ -15,4 +15,8 @@ public class Calc {
         System.out.print(">>>>>>> Run sub method ...");
         return x * y;
     }
+
+    public int div(int x, int y) {
+        return x / y;
+    }
 }
