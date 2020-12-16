@@ -8,6 +8,11 @@ public class Calc {
 
     public int sub(int x, int y) {
         System.out.print(">>>>>>> Run sub method ...");
-        return x -y;
+        return x - y;
+    }
+
+    public int mul(int x, int y) {
+        System.out.print(">>>>>>> Run sub method ...");
+        return x * y;
     }
 }
